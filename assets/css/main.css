@@ -11,11 +11,8 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: #555;
-
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    
-    margin-top: 70px;
 }
 
 /* Titles */
@@ -82,14 +79,13 @@ a:after {
 .navbar {
 	font-weight: 800;
 	font-size: 14px;
-	padding-top: 15px;
-	padding-bottom: 5px;
+	padding-top: 5px;
 	background-color: #ffffff;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #ffffff;
-	background-color: #74cfae;
+	background-color: #FF6600;
 }
 
 .navbar-brand {
@@ -100,7 +96,7 @@ a:after {
 
 .btn-theme {
 	color: #ffffff;
-	background-color: #74cfae;
+	background-color: #FF6600;
 	border-color: transparent;
 }
 
@@ -119,10 +115,20 @@ a:after {
 /* WRAP SECTIONS */
 
 /* header */
+.headrow {
+    background:rgba(75,75,75,0.5);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.myname {
+    margin-top: -20px;
+}
+
 #hello {
 	width: 100%;
-	padding-top: 150px;
-	padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 50px;
     background-image:url(../img/laptop.jpg);
 }
 
@@ -130,7 +136,7 @@ a:after {
 	font-size: 40px;
 	font-weight: 700;
 	letter-spacing: 3px;
-	color: #74cfae;
+	color: #FF6600;
 }
 
 #hello h2 {
@@ -140,7 +146,7 @@ a:after {
 
 /* Green */
 #green {
-	background-color: #74cfae;
+	background-color: #FF6600;
 	padding-top: 50px;
 	margin-bottom: 0px;
 }
@@ -160,8 +166,6 @@ a:after {
 /* Skills */
 #skills {
 	background-color: #4e4e4e;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 #skills h3 {
@@ -176,13 +180,11 @@ a:after {
 /* Social Links */
 #social {
 	width: 100%;
-	padding-top: 100px;
-	padding-bottom: 100px;
 }
 
 #social i {
 	font-size: 50px;
-	color: #74cfae;
+	color: #FF6600;
 }
 
 #social .col-md-3:hover {
@@ -196,7 +198,7 @@ a:after {
 /* Footer */
 #f {
 	padding-top: 20px;
-	background-color: #74cfae;
+	background-color: #FF6600;
 }
 
 #f p {
